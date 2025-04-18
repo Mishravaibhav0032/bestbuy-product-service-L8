@@ -5,73 +5,88 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: " ".to_string(),
+            price: 1599.99,
+            description: "Experience cutting-edge performance with the iPhone 15 Pro Max. Titanium design, A17 Pro chip, and a pro camera system built for creative professionals.".to_string(),
+            image: "/iphone15pro.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Samsung 65\" QLED 8K Smart TV".to_string(),
+            price: 2499.99,
+            description: "Enjoy lifelike clarity with Samsung's QLED 8K Smart TV. AI-powered upscaling and vibrant Quantum Dot display bring every scene to life.".to_string(),
+            image: "/samsung_qled.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "ASUS ROG Strix Gaming Laptop".to_string(),
+            price: 1999.99,
+            description: "Crush the competition with the ASUS ROG Strix. Featuring an AMD Ryzen 9, RTX 4080 GPU, and a 240Hz FHD display for ultra-smooth gameplay.".to_string(),
+            image: "/asus_rog.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Canon EOS R8 Mirrorless Camera".to_string(),
+            price: 1899.99,
+            description: "Capture professional-quality images with the Canon EOS R8. Compact, powerful, and ideal for both creators and enthusiasts.".to_string(),
+            image: "/canon_eos.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Dyson V15 Detect Vacuum Cleaner".to_string(),
+            price: 849.99,
+            description: "The most powerful Dyson cordless vacuum with laser detection for hidden dust. Smart LCD screen shows real-time performance.".to_string(),
+            image: "/dyson_v15.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "HP ENVY Desktop PC - Intel i7".to_string(),
+            price: 1099.99,
+            description: "A powerful home or office PC with 13th Gen Intel i7, 16GB RAM, and 1TB SSD. Sleek and quiet with ample ports.".to_string(),
+            image: "/hp_envy.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "DJI Mini 4 Pro Drone".to_string(),
+            price: 999.99,
+            description: "Fly smarter with the DJI Mini 4 Pro. 4K video, obstacle sensing, and ultralight design make it perfect for content creators on the move.".to_string(),
+            image: "/dji_mini.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Logitech MX Master 3S Wireless Mouse".to_string(),
+            price: 139.99,
+            description: "Ultimate precision and comfort with the Logitech MX Master 3S. Silent clicks, fast scrolling, and multi-device support.".to_string(),
+            image: "/logitech_mx.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Ring Video Doorbell Pro 2".to_string(),
+            price: 349.99,
+            description: "Stay secure with the Ring Video Doorbell Pro 2. Features 3D Motion Detection, 1536p HD video, and head-to-toe viewing.".to_string(),
+            image: "/ring_doorbell.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Philips Hue White & Color Ambiance Starter Kit".to_string(),
+            price: 229.99,
+            description: "Smart lighting that transforms your space. Includes 3 color bulbs and a hub compatible with Alexa, Google, and Apple HomeKit.".to_string(),
+            image: "/philips_hue.jpg".to_string()
+        },
+        Product {
+            id: 11,
+            name: "Seagate 2TB Portable External HDD".to_string(),
+            price: 79.99,
+            description: "Back up files on the go with the Seagate 2TB portable hard drive. USB 3.0 interface ensures fast data transfer.".to_string(),
+            image: "/seagate_2tb.jpg".to_string()
+        },
+        Product {
+            id: 12,
+            name: "JBL Flip 6 Portable Bluetooth Speaker".to_string(),
+            price: 169.99,
+            description: "Powerful sound, bold design. The JBL Flip 6 is waterproof, portable, and perfect for music lovers everywhere.".to_string(),
+            image: "/jbl_flip6.jpg".to_string()
         }
+        
     ]
 }
